@@ -12,18 +12,17 @@ Sound-Unterstützung
 - Gemeinsame Zwischenablage für Ausschneiden und Einfügen zwischen Kali Linux- und Windows-Apps
 - Multi-Session-Unterstützung: Root-Fenster & Non-Priv-Fenster & nahtlose Sitzungen gleichzeitig
 - Voll kompatibel mit WSLg
-
+---
 |Installation|
 |---|
 ### Voraussetzungen:
 - Ausführen von Windows 10 Version 2004 oder höher
 - Verwendung von Windows Terminal
-
+---
 |Kali Linux in WSL2 installieren|
 |---|
 ### Öffnen Sie PowerShell als Administrator, und führen Sie Folgendes aus:
 - Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-
 
 |Neustarten|
 |---|
