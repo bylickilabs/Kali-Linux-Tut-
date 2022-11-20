@@ -4,7 +4,6 @@
 ### Überblick
 |Win-KeX bietet eine Kali Desktop Experience für Windows-Subsystem für Linux (WSL 2) mit den folgenden Funktionen:|
 |---|
----
 - Fenstermodus: Starten Sie einen Kali Linux-Desktop in einem dedizierten Fenster
 - Nahtloser Modus: Teilen Sie den Windows-Desktop zwischen Windows- und Kali-Apps und -Menüs
 Sound-Unterstützung
