@@ -17,7 +17,7 @@ Sound-Unterstützung
 |---|
 ### Voraussetzungen:
 - Ausführen von Windows 10 Version 2004 oder höher
-- Verwenden von Windows Terminal
+- Verwendung von Windows Terminal
 
 |Kali Linux in WSL2 installieren|
 |---|
