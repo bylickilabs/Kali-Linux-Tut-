@@ -1,21 +1,21 @@
 |Kali-Linux-Tutorial|
 |---|
 
-Überblick
-Win-KeX bietet eine Kali Desktop Experience für Windows-Subsystem für Linux (WSL 2) mit den folgenden Funktionen:
-
-Fenstermodus: Starten Sie einen Kali Linux-Desktop in einem dedizierten Fenster
-Nahtloser Modus: Teilen Sie den Windows-Desktop zwischen Windows- und Kali-Apps und -Menüs
+### Überblick
+|Win-KeX bietet eine Kali Desktop Experience für Windows-Subsystem für Linux (WSL 2) mit den folgenden Funktionen:|
+|---|
+---
+- Fenstermodus: Starten Sie einen Kali Linux-Desktop in einem dedizierten Fenster
+- Nahtloser Modus: Teilen Sie den Windows-Desktop zwischen Windows- und Kali-Apps und -Menüs
 Sound-Unterstützung
-Unterstützung für nicht privilegierte und Root-Sitzungen
-Gemeinsame Zwischenablage für Ausschneiden und Einfügen zwischen Kali Linux- und Windows-Apps
-Multi-Session-Unterstützung: Root-Fenster & Non-Priv-Fenster & nahtlose Sitzungen gleichzeitig
-Voll kompatibel mit WSLg
+- Unterstützung für nicht privilegierte und Root-Sitzungen
+- Gemeinsame Zwischenablage für Ausschneiden und Einfügen zwischen Kali Linux- und Windows-Apps
+- Multi-Session-Unterstützung: Root-Fenster & Non-Priv-Fenster & nahtlose Sitzungen gleichzeitig
+- Voll kompatibel mit WSLg
 
-
-
-Installation
-Voraussetzungen
+|Installation|
+|---|
+### Voraussetzungen:
 Ausführen von Windows 10 Version 2004 oder höher
 Verwenden von Windows Terminal
 
