@@ -16,37 +16,44 @@ Sound-Unterstützung
 |Installation|
 |---|
 ### Voraussetzungen:
-Ausführen von Windows 10 Version 2004 oder höher
-Verwenden von Windows Terminal
+- Ausführen von Windows 10 Version 2004 oder höher
+- Verwenden von Windows Terminal
+
+|Kali Linux in WSL2 installieren|
+|---|
+### Öffnen Sie PowerShell als Administrator, und führen Sie Folgendes aus:
+- Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 
-Kali Linux in WSL2 installieren
-Öffnen Sie PowerShell als Administrator, und führen Sie Folgendes aus:
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+|Neustarten|
+|---|
+### Öffnen Sie PowerShell als Administrator, und führen Sie Folgendes aus:
+- dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+- dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
 
-Neustarten
-Öffnen Sie PowerShell als Administrator, und führen Sie Folgendes aus:
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+|Neustarten|
+|---|
+### Laden Sie den WSL2 Linux Kernel von hier herunter und installieren Sie ihn: https://aka.ms/wsl2kernel
+- Öffnen Sie PowerShell als Administrator und führen Sie Folgendes aus: wsl --set-default-version 2
+- Installieren von Kali Linux aus dem Microsoft Store
+|Hinweis:|
+|---|
+### Um eine vorhandene WSL1 kali-linux-Installation zu aktualisieren, geben Sie Folgendes ein: 
+|wsl --set-version kali-linux 2|
+|---|
+- Führen Sie Kali aus und schließen Sie die Ersteinrichtung ab
 
+|Installieren Sie win-kex über:|
+|---|
+- sudo apt update
+- sudo apt install -y kali-win-kex
 
-Neustarten
-Laden Sie den WSL2 Linux Kernel von hier herunter und installieren Sie ihn: https://aka.ms/wsl2kernel
-Öffnen Sie PowerShell als Administrator und führen Sie Folgendes aus: wsl --set-default-version 2
-Installieren von Kali Linux aus dem Microsoft Store
-Hinweis: Um eine vorhandene WSL1 kali-linux-Installation zu aktualisieren, geben Sie Folgendes ein: wsl --set-version kali-linux 2
-Führen Sie Kali aus und schließen Sie die Ersteinrichtung ab
+|Optionale Schritte:|
+|---|
+- Wenn sie über genug Speicherplatz verfügen, können sie auch das volle Paket Upgrade durch führen. 
 
-
-Installieren von Win-KeX
-Installieren Sie win-kex über:
-sudo apt update
-sudo apt install -y kali-win-kex
-
-
-
-Optionale Schritte:
-Wenn sie über genug Speicherplatz verfügen, können sie auch das volle Paket Upgrade durch führen. Mit dem folgendem Befehl starten sie das Upgrade!
-sudo apt install -y kali-linux-large
+|Mit dem folgendem Befehl starten sie das Upgrade!|
+|---|
+- sudo apt install -y kali-linux-large
 
