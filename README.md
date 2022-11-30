@@ -1,7 +1,7 @@
 ![kali-wallpaper-2015-v1 1 0](https://user-images.githubusercontent.com/109308073/202898304-52cc44f5-4aba-428e-9d90-55664b10bd0c.jpg)
 
-|Kali Linux Tutorial|
-|---|
+|Kali Linux Tutorial| ![Kali](https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)|![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)|
+|---|---|---|
 
 ### Overview
 |Win-KeX provides a Kali Desktop Experience for Windows Subsystem for Linux (WSL 2) with the following features:|
