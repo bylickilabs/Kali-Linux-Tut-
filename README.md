@@ -2,7 +2,7 @@
 
 |Kali Linux Tutorial| ![Kali](https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)|![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)|
 |---|---|---|
-    
+     
 ### Overview
 |Win-KeX provides a Kali Desktop Experience for Windows Subsystem for Linux (WSL 2) with the following features:|
 |---|
