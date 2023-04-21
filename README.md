@@ -47,7 +47,6 @@ sound support
 ### To update an existing WSL1 kali-linux installation, type:
 |wsl --set-version kali-linux 2|
 |---|
-- Download [LINK](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 - Run Kali and complete the initial setup
 
 |Install win-kex via:|
