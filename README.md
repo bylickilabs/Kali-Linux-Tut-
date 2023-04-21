@@ -45,6 +45,8 @@ sound support
 ---
 
 ### To update an existing WSL1 kali-linux installation, type:
+- Download SubSystem [LINK](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+- Open PowerShell as Administrator and run: 
 |wsl --set-version kali-linux 2|
 |---|
 - Run Kali and complete the initial setup
