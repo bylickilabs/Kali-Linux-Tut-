@@ -35,7 +35,9 @@ sound support
 |Reboot|
 |---|
 ### Download and install the WSL2 Linux kernel from here: [LINK](https://aka.ms/wsl2kernel)
-- Open PowerShell as Administrator and run: wsl --set-default-version 2
+- Open PowerShell as Administrator and run: 
+|wsl --set-default-version 2|
+|---|
 - Installing Kali Linux from the Microsoft Store [LINK](https://apps.microsoft.com/store/detail/kali-linux/9PKR34TNCV07?hl=de-de&gl=de)
 
 ### To update an existing WSL1 kali-linux installation, type:
