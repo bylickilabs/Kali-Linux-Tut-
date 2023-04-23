@@ -16,6 +16,8 @@ You don't need to do anything other than the original to Download.
 | wsl_update_x64 |
 |---|
 
+[DOWNLOAD HERE](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+
 ```yarn
 With windows 11, you can uninstall it by right-clicking on the directory to be downloaded on your computer and 
 displaying the additional options.
