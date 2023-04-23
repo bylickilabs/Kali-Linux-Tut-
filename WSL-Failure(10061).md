@@ -28,3 +28,4 @@ After rebooting, just reinstall it and run Kali's regular update.
 
 Since Kali is not uninstalled, but only the "wsl" update is reinstalled, the files should be preserved.
 ```
+:white_check_mark: 10061 fix
