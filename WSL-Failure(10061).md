@@ -1,4 +1,4 @@
-### 10061 Failure - Kali Linux
+### Kali Linux - 10061 Failure
 
 ```yarn
 Under certain circumstances, such as the update to the WSL when starting the interface accessible via "kex".
