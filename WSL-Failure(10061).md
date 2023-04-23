@@ -1,5 +1,5 @@
 ### Kali Linux - 10061 Failure
-:white_check_mark: [FIX] kex unable to connect to socket: connection refused (10061)
+:white_check_mark: [Fixed] kex unable to connect to socket: connection refused (10061)
 
 ```yarn
 Under certain circumstances, such as the update to the WSL when starting the interface accessible via "kex".
