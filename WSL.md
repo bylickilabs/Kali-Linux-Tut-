@@ -17,7 +17,8 @@ You don't need to do anything other than the original to Download.
 |---|
 
 ```yarn
-With windows 11, you can uninstall it by right-clicking on the directory to be downloaded on your computer and displaying the additional options.
+With windows 11, you can uninstall it by right-clicking on the directory to be downloaded on your computer and 
+displaying the additional options.
 
 Then restart your computer once, just be careful
 
