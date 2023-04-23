@@ -1,4 +1,5 @@
 ### Kali Linux - 10061 Failure
+:white_check_mark: [FIX] kex unable to connect to socket: connection refused (10061)
 
 ```yarn
 Under certain circumstances, such as the update to the WSL when starting the interface accessible via "kex".
@@ -28,4 +29,4 @@ After rebooting, just reinstall it and run Kali's regular update.
 
 Since Kali is not uninstalled, but only the "wsl" update is reinstalled, the files should be preserved.
 ```
-:white_check_mark: 10061 fix
+---
