@@ -1,0 +1,65 @@
+![kali-wallpaper-2015-v1 1 0](https://user-images.githubusercontent.com/109308073/202898304-52cc44f5-4aba-428e-9d90-55664b10bd0c.jpg)
+
+|Kali Linux Tutorial| ![Kali](https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)|![Linux](https://img.shields.io/badge /Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)|
+|---|---|---|
+
+### Overview
+|Win-KeX provides a Kali desktop experience for the Windows Subsystem for Linux (WSL 2) with the following features:|
+|---|
+- Windowed mode: Start a Kali Linux desktop in a special Window
+- Seamless mode: Share the Windows desktop between Windows and Kali apps and menus
+- Solid support
+- Support for unprivileged and root sessions
+- Shared clipboard for cut and paste between Kali Linux and Windows apps
+- Multi-session -Support: root window and non-private window and seamless sessions simultaneously
+- Fully compatible with WSLg
+---
+|Installation|
+|---|
+### Requirements:
+- Running Windows 10 version 2004 or higher
+- Using the Windows Terminals
+
+|Install Kali Linux in WSL2|
+|---|
+### Open PowerShell as administrator and run:
+- Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+
+|Restart|
+
+|---|
+### Open PowerShell as administrator and run :
+- dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+- dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+|Restart|
+|--- |
+### Download and install the WSL2 Linux kernel here: [LINK](https://aka.ms/wsl2kernel)
+
+- Open PowerShell as administrator and run:
+
+|wsl --set -default-version 2|
+|---|
+- Install Kali Linux from the Microsoft Store [LINK](https://apps.microsoft.com/store/detail/kali-linux/9PKR34TNCV07?hl=de-de&gl=de)
+
+---
+
+### To install an existing To update your WSL1 Kali Linux installation, type:
+- Download SubSystem [LINK](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+- Open PowerShell as administrator and run Run:
+
+|wsl --set-version kali-linux 2|
+|---|
+- Run Kali and complete the initial setup
+
+|Install win-kex via:|
+|---|
+- sudo apt-update - sudo apt install -y kali-win-kex
+
+|Optional steps:|
+|---|
+- If you have enough space, you can also upgrade the entire package.
+
+|Start the upgrade with the following command!|
+|---|
+- sudo apt install -y kali-linux-large
